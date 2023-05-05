@@ -23,18 +23,18 @@ CTRL(левый)+ALT(левый)+(от F1 до F6) <br>
 
 <b>Обычное приглашение в терминале</b>  <br>
 Может быть, к примеру, таким: <br>
-user1@ubuntu:~$ <br>
+`user1@ubuntu:~$ `<br>
 где: <br>
 user1 - текщий пользователь, с которым (под которым) вы работаете в системе <br>
 ubuntu - название компьютера (хоста), на котором вы сейчас находитесь <br>
 ~ - означает, что вы находитесь в домашней папке home данного юзера  <br><br>
 
 <b>Clear</b> <br>
-user1@ubuntu:~$ clear <br>
+`user1@ubuntu:~$ clear` <br>
 Моя любимая команда, очищает экран Терминала, аналог команды cls в Windows <br><br>
 
 <b>Path</b> <br>
-user1@ubuntu:~$ echo $PATH <br>
+`user1@ubuntu:~$ echo $PATH` <br>
 /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin: <br>
 /usr/games:/usr/local/games:/snap/bin:/snap/bin <br>
 Аналог переменной PATH в Windows, в которой отображаются <br>
@@ -42,11 +42,11 @@ user1@ubuntu:~$ echo $PATH <br>
 без полного указания пути к ним <br><br>
 
 <b>Процессы</b> <br>
-user1@ubuntu:~$ ps <br>
+`user1@ubuntu:~$ ps` <br>
 Можно посмотреть какие процессы сейчас запущены у данного пользователя <br>
 Для прерываения процессов используется CTRL+C <br>
 Для остановки процессов обычно используется CTRL+Z <br>
-user1@ubuntu:~$ fg <br>
+`user1@ubuntu:~$ fg` <br>
 Продолжить выполнение процесса <br><br>
 
 <b>Установка и удаление программ с помощью графического интерфейса</b> <br>
@@ -66,6 +66,11 @@ user1@ubuntu:~$ fg <br>
 
 <a href="/01_info/fs/FS.md">Файловая система - общая информация.</a>
 Особенности, примечания, корневая структура <br>
+
+<a href="/01_info/fs/FS_COMMANDS.md">Файловая система - команды</a> <br>
+
+<a href="/01_info/fs/FILE.md">Файловая система - файлы.</a> 
+Некоторые команды работы с файлами <br><br>
 
 <details>
 <summary>Примечание: спасибо</summary>
