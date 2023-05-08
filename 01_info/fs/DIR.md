@@ -1,8 +1,23 @@
 <a href="/README.md">вернуться к оглавлению</a>
 
-<b>Файловая система - команды</b> <br><br>
+<b>Файловая система - каталоги</b> <br><br>
 
-<b>CD</b> - change directory <br>
+<b>mkdir</b> - создать директорию <br>
+`user1@ubuntu:~/Desktop$ mkdir dir1` <br> <br>
+
+<b>mv</b> - переименовать, переместить директорию <br>
+`user1@ubuntu:~/Desktop$ mv dir1 dir2` <br> <br>
+
+<b>rmdir</b> - удалить каталог <br>
+`user1@ubuntu:~/Desktop$ rmdir dir1` <br> 
+Удаляются только пустые директории <br>
+"`rm -R`" удалить каталог со всем содержимым <br><br> 
+
+<b>cp</b> - копирование <br>
+`user1@ubuntu:~/Desktop$ cp -R dir1 dir2` <br>
+Копировать все содержимое dir1 в dir2 <br><br>
+
+<b>cd</b> - change directory <br>
 `user1@ubuntu:~$ cd /` <br>
 `user1@ubuntu:/$`<br>
 Переход в корневой раздел<br> <br>
