@@ -14,7 +14,7 @@
 
 <details>
 <summary>Разное</summary>
-<b>Установка и удаление программ с помощью графического интерфейса</b> <br>
+<b>Установка и удаление отдельных программ с помощью графического интерфейса</b> <br>
 (аналог Установка и удаление программ, программы и компоненты в Windows) <br>
 Иконка (программа) называется Ubuntu software и выглядит вот так: <br>
 <img alt="" src="/01_info/ubuntu_software.png"> <br>
@@ -106,6 +106,10 @@ apport.log          dmesg.2.gz       speech-dispatcher
 
 <a href="01_info/access/ACCESS.md">Права доступа</a> <br>
 к файлам и папкам <br>
+
+<a href="01_info/net/NET.md">Сетевые команды</a> <br>
+ifconfig, route, ping и другие <br>
+
 
 <details>
 <summary>Примечание: спасибо</summary>
