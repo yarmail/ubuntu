@@ -14,12 +14,6 @@
 
 <details>
 <summary>Разное</summary>
-<b>Установка и удаление отдельных программ с помощью графического интерфейса</b> <br>
-(аналог Установка и удаление программ, программы и компоненты в Windows) <br>
-Иконка (программа) называется Ubuntu software и выглядит вот так: <br>
-<img alt="" src="/01_info/ubuntu_software.png"> <br>
-Представляет собой хранилище программ как в интернете, так и на локальном <br>
-компьютере, аналогично хранилищам в Windows или плагинам для Google Chrome <br><br>
 
 <b>Самый простой вызов терминала</b>  <br>
 Кликаем правой кнопкой на рабочем столе и вызываем Терминал <br>
@@ -80,6 +74,11 @@ apport.log          dmesg.2.gz       speech-dispatcher
 </pre>
 Все основные логи хранятся здесь.<br><br>
 
+<b>Перезагрузка и выключение компьютера</b> <br>
+Перезагрука - "sudo reboot now", <br>
+Выключение - "sudo shutdown now"
+
+
 </details>
 
 <a href="/01_info/help/HELP_COMMANDS.md">Разная помощь по командам -</a> <br> 
@@ -109,6 +108,9 @@ apport.log          dmesg.2.gz       speech-dispatcher
 
 <a href="01_info/net/NET.md">Сетевые команды</a> <br>
 ifconfig, route, ping и другие <br>
+
+<a href="01_info/install/INSTALL.md">Установка программ</a> <br>
+с помощью терминала или графической оболочки<br>
 
 
 <details>
