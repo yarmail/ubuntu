@@ -38,6 +38,17 @@ ubuntu - название компьютера (хоста), на котором
 Можно посмотреть статус выполнения предыдущей команды, если он = 0, <br> 
 значит все нормально<br><br>
 
+<b>lsb-release</b> <br>
+`user1@ubuntu:~$ cat /etc/lsb-release` <br>
+Вывод:<br>
+<pre>
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=22.04
+DISTRIB_CODENAME=jammy
+DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
+</pre>
+Можно посмотреть информацию о текущей ОС<br><br>
+
 <b>PATH</b> <br>
 `user1@ubuntu:~$ echo $PATH` <br>
 /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin: <br>
